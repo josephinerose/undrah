@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+h1 {
+    font-family: WORK SANS ;color: #fff;
+}
+p{
+    color:ghostwhite;
+    font-size: large;
+    font-family: WORK SANS;
+    font-weight: 100;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(tsag.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 95%;
+   margin: auto;
+   padding: 35px 0;
+   display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;  
+  color: white;
+  text-transform: uppercase;
+}
+p::after{
+    content: "\2193";
+    color: white;
+    display: block;
+    font-size: 300px;
+    text-align: center;
+}
+.content h1{
+    font-size: 60px;
+    margin-top: 80px;
+    text-align: center;
+}
+.conten p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+li::after{
+    content: "\2193";
+    color: #fff;
+}
